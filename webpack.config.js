@@ -39,7 +39,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 // importuję bibliotekę [path] z [node.js]
 module.exports = {
-	entry: "./assets/js/script.js",
+	entry: "./assets/js/main.js",
 	// definiuję plik wejściowy
 	output: {
 		path: path.resolve(__dirname, "build"),
